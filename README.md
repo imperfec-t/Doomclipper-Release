@@ -5,7 +5,7 @@
 <p align="center"><b>Turn long GTA 6 streams and videos into captioned vertical clips, automatically.</b><br>
 Windows app · runs on your own computer · uses your Claude or ChatGPT plan, or an API key</p>
 
-<p align="center"><a href="../../releases/latest"><b>⬇ Download the latest version</b></a></p>
+<p align="center"><a href="https://github.com/imperfec-t/Doomclipper-Release/releases/latest"><b>⬇ Download the latest version</b></a></p>
 
 ---
 
@@ -43,7 +43,7 @@ and music.
 
 ## Install
 
-1. **Download** `DoomClipper-Setup-<version>.exe` from [Releases](../../releases/latest) (about 150 MB).
+1. **Download** `DoomClipper-Setup-<version>.exe` from [Releases](https://github.com/imperfec-t/Doomclipper-Release/releases/latest) (about 150 MB).
 2. **Run it.** It installs for your Windows user only, so no administrator prompt. Windows SmartScreen may say
    "Windows protected your PC" because the installer is new and not yet widely downloaded: click **More info**, then
    **Run anyway**.
