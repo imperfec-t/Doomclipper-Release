@@ -122,5 +122,3 @@ build), the Anton, Archivo Black and Poppins fonts (SIL OFL), Twemoji (CC-BY 4.0
 (incompetech.com, CC-BY 4.0). It downloads NVIDIA's Parakeet speech model (CC-BY-4.0) and the Kokoro voice (Apache 2.0)
 when installing. The full list, with every bundled library's licence and ffmpeg's source link, is in
 [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt) and inside the app's folder.
-
-DoomClipper builds on [PeakCut](https://github.com/haziqahmedqasmi/PeakCut) by haziqahmedqasmi and contributors (MIT).
