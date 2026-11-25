@@ -1,0 +1,53 @@
+DoomClipper for Windows: third-party notices
+============================================
+
+DoomClipper itself is MIT licensed (LICENSE). It includes, or downloads when installed, the following.
+
+ffmpeg and ffprobe (bin\ffmpeg.exe, bin\ffprobe.exe)
+  The essentials build by gyan.dev (https://www.gyan.dev/ffmpeg/builds/), licensed under the GNU General
+  Public License version 3: bin\ffmpeg-LICENSE.txt. Its exact source code:
+  https://github.com/FFmpeg/FFmpeg/commit/74e4393595  (and the build's libraries, listed in bin\ffmpeg-README.txt).
+  DoomClipper runs ffmpeg as a separate program; it is not linked into DoomClipper.
+
+Fonts (studio\fonts): Anton, Archivo Black and Poppins, SIL Open Font License 1.1 (OFL-*.txt beside them).
+Emoji (studio\emoji): Twemoji by Twitter and contributors, in Mozilla's colour font build, CC-BY 4.0.
+Music (studio\music): "Cyborg Ninja", "Laserpack", "Neon Laser Horizon" and "Voltaic" by Kevin MacLeod
+  (incompetech.com), Creative Commons Attribution 4.0. The credit line is added to countdown post text.
+
+Downloaded when installing (not in the installer):
+  English speech model: NVIDIA Parakeet TDT 0.6b v2, CC-BY-4.0, via sherpa-onnx (k2-fsa).
+  AI voice: Kokoro 82M (hexgrad), Apache 2.0, via sherpa-onnx (k2-fsa).
+
+Python 3.12 runtime: Python Software Foundation License. Tcl/Tk (the small launcher window): BSD-style licence.
+
+Python packages:
+  annotated-doc                0.0.7          MIT
+  annotated-types              0.8.0          MIT
+  anyio                        4.16.0         MIT
+  certifi                      2026.11.20     MPL-2.0
+  cffi                         2.1.1          MIT-0
+  click                        8.5.1          BSD-3-Clause
+  fastapi                      0.162.5        MIT
+  fonttools                    4.68.0         MIT
+  greenlet                     3.5.6          MIT AND PSF-2.0
+  h11                          0.16.0         MIT
+  httpcore                     1.0.9          BSD-3-Clause
+  httpx                        0.28.1         BSD-3-Clause
+  idna                         3.20           BSD-3-Clause
+  numpy                        2.2.6          BSD License
+  opentelemetry-api            1.45.2         Apache-2.0
+  pillow                       11.3.0         MIT-CMU
+  pycparser                    3.12           BSD-3-Clause
+  pydantic                     2.14.4         MIT
+  pydantic_core                2.50.5         MIT
+  python-multipart             0.0.32         Apache-2.0
+  sherpa-onnx-core             2.0.1          Apache-2.0
+  sherpa_onnx                  2.0.1          Apache licensed, as found in the LICENSE file
+  soundfile                    0.14.0         BSD 3-Clause License
+  SQLAlchemy                   2.0.57         MIT
+  starlette                    1.10.0         BSD-3-Clause
+  typing-inspection            0.4.5          MIT
+  typing_extensions            4.16.0         PSF-2.0
+  tzdata                       2026.6         Apache-2.0
+  uvicorn                      0.54.0         BSD-3-Clause
+  yt-dlp                       2026.10.21     Unlicense
